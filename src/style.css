@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: url(./images/bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* write your CSS here */
+.container {
+  max-width: 1200px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.profile-card {
+  background-color: rgba(255, 255, 255, 0.715);
+  border: 20px solid #ffffff;
+  border-radius: 30px;
+  display: flex;
+  padding: 1em;
+  padding-left: 5em;
+  gap: 1.5em;
+  height: 540px;
+  max-width: 1094px;
+  box-shadow: 0px 5px 5px #81839157;
+}
+
+.profile-card .profile-img {
+  max-width: 400px;
+  padding: 0 0.5em;
+  text-align: right;
+}
+.profile-card .profile-img img {
+  max-width: 250px;
+  max-height: 250px;
+  border-radius: 50%;
+  border: 10px solid #e6e6e6;
+}
+
+.profile-card .profile-info {
+  width: 600px;
+  margin-top: 2em;
+  padding-right: 0.5em;
+  padding-left: 1em;
+}
+
+.profile-card .profile-info h1 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Merriweather", serif;
+  margin-bottom: 5px;
+}
+
+.profile-card .profile-info .job {
+  color: gray;
+  font-size: 24px;
+  margin-bottom: 0.8em;
+}
+
+.profile-card .profile-info .desc {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.profile-card .profile-info .achieve {
+  display: flex;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  gap: 1em;
+  margin: 2em auto;
+}
+
+.profile-card .profile-info .achieve p:nth-child(2) {
+  border-left: 1px solid #141843;
+  border-right: 1px solid #141843;
+  padding: 0 2em;
+}
+
+.profile-card .profile-info .button {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  margin-left: 1em;
+  margin-top: 1em;
+}
+
+.profile-card .profile-info .button .btn {
+  border: 1px solid #141843;
+  padding: 10px 40px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #141843;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.btn-follow {
+  background-color: #aef1f5;
+}
+.btn-view {
+  background-color: #ffddb6;
+}
+.credit {
+  margin: 20px auto;
+  font-size: 12px;
+}
+
+.credit a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: #4548f0;
+  padding: 2px 10px;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .profile-card {
+    max-width: 760px;
+    margin: 30px;
+    gap: 0;
+    padding-left: 40px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .profile-card {
+    flex-direction: column;
+    max-width: 500px;
+    min-height: 300px;
+    height: auto;
+    margin: 20px;
+    padding-left: 0;
+  }
+  .profile-card .profile-img {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .profile-card .profile-info {
+    width: 100%;
+    padding-left: 10px;
+  }
+  .profile-card .profile-info h1,
+  .job {
+    text-align: center;
+  }
+  .profile-card .profile-info .desc {
+    text-align: justify;
+  }
+  .profile-card .profile-info .achieve {
+    flex-direction: column;
+    margin: 40px auto;
+  }
+  .profile-card .profile-info .achieve p:nth-child(2) {
+    border: none;
+    border-bottom: 1px solid #141843;
+    border-top: 1px solid #141843;
+    padding: 10px 0;
+  }
+  .profile-card .profile-info .button {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .profile-card .profile-info .button .btn {
+    padding: 10px 20px;
+  }
+}
