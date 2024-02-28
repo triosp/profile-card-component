@@ -25,4 +25,4 @@ In this frontend challenge, You'll learn how to build a Profile Card Component f
 
 I hope you'll enjoy building this challenge.
 
-Feel free to share your solution on the website or on social media and tag [us](https://twitter.com/FrontendProHQ).
+Feel free to share your solution on the [website](https://frontendpro.dev) or on social media and tag [us](https://twitter.com/FrontendProHQ).
