@@ -9,9 +9,6 @@ In this challenge, you'll build a Profile Card Component. This challenge is perf
 **Challenge Source**
 [FrontendPro](https://frontendpro.dev)
 
-**Tags**
-FRONTEND
-
 **Learning**
 In this frontend challenge, You'll learn how to build a Profile Card Component from scratch. You'll also learn how to use CSS Flexbox to lay out the component and make it responsive. This frontend challenge is a great opportunity to improve your HTML & CSS skills by building a real-world frontend project. You're going to love it!
 
