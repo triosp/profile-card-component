@@ -6,8 +6,8 @@ Profile Card Component
 **Challenge Description**
 In this challenge, you'll build a Profile Card Component. This challenge is perfect for you if you're interested in building front-end web components and taking your front-end skills to the next level!
 
-**Difficulty Level**
-Beginner
+**Challenge Source**
+[FrontendPro](https://frontendpro.dev)
 
 **Tags**
 FRONTEND
@@ -25,4 +25,4 @@ In this frontend challenge, You'll learn how to build a Profile Card Component f
 
 I hope you'll enjoy building this challenge.
 
-Feel free to share your solution on the [website](https://frontendpro.dev) or on social media and tag [us](https://twitter.com/FrontendProHQ).
+Feel free to share your solution on the website or on social media and tag [us](https://twitter.com/FrontendProHQ).
